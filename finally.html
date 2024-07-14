@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>finally bootstrap project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="bootstrap project1.css">
+</head>
+<body>
+  
+
+    
+    
+    <!--section 1 - header - kiana -->
+    <header>
+      <nav class="navbar navbar-expand-lg   ">
+        <div class="container-fluid  my-1 lh-sm">
+          <a class="navbar-brand" href="#">
+            <img src="img/cart.png" alt="cart"  style="width: 35px">
+            CartZilla</a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                
+                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle  border-start ps-3"  style="color: black; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; letter-spacing: -1px; " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> 
+                        نیویورک
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">کانادا</a></li>
+                        <li><a class="dropdown-item" href="#">ایران</a></li>
+                        
+                      </ul>
+                    </li>
+                    <li>
+                      <hr class="my-divider " >
+                    </li>
+                    
+                    <li class="nav-item mx-3">
+                      <a class="nav-link active" aria-current="page" href="error.html" >
+                        غذا
+                      </a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link text-dark ms-3" href="#">برگشت به نسخه اصلی</a>
+                  </li>
+                  
+                  
+                </ul>
+                <div  style="font-size: 28px; ">
+                  <i class="bi bi-search-heart me-3"></i>
+                  <i class="bi bi-person-hearts me-3"></i>
+                </div>
+                
+              </div>
+            </div>
+      </nav>
+
+    </header>
+        <!-- section 2 - behina  -->
+    <section>
+      <div id="carouselExampleDark" class="carousel carousel-dark slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner mb-5">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block bg-white opacity-75 ">
+                  <p>سیستم ارسال غذا از سال 1995#</p>
+                  <h5>.ما غذای مورد علاقه ی شما را تازه و سریع برایتان ارسال میکنیم</h5>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="img\3.jpg" class="d-block w-100" alt="..." style="height:643px;">
+                <div class="carousel-caption d-none d-md-block bg-white opacity-75">
+                  <p>سیستم ارسال غذا از سال 1995#</p>
+                  <h5>.ما غذای مورد علاقه ی شما را تازه و سریع برایتان ارسال میکنیم</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img\4.jpg" class="d-block w-100" alt="..." style="height:643px;">
+                <div class="carousel-caption d-none d-md-block bg-white opacity-75">
+                  <p>سیستم ارسال غذا از سال 1995#</p>
+                  <h5>.ما غذای مورد علاقه ی شما را تازه و سریع برایتان ارسال میکنیم</h5>
+                </div>
+              </div>
+            </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  
+</section>
+
+<!-- section 3 - arefeh  -->
+<section class="arefeh-des text-center fw-bold">
+  <h2 class="mt-5 pt-2">غذاهای پرطرفدار شهر شما</h2>
+  <h5 class="mt-2 pt-2 text-muted">آنچه را که می خواهید انتخاب کنید و ما آن را به شما تحویل می دهیم.</h5>
+</section>
+<section class="arefeh-food mt-5">
+        <div class="container my-container">
+          <div class=" row g-4 mb-5">
+                <div class=" col-lg-4 col-md-6"  style="max-height: 355px;">
+                  <div class="card my-card shadow ">
+                        <img class="card-img-top img-fixed " src="img/edit/10.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mt-2 mb-2">برگر و سیب زمینی سرخ کرده</h5>
+                          </div>
+                        </div>
+                        
+                      </div>
+                      <div class=" col-lg-4 col-md-6" >
+                        <div class="card my-card shadow ">
+                          <img class="card-img-top img-fixed " src="img/edit/11.jpg" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title text-center mt-2 mb-2">رشته فرنگی</h5>
+                        </div>
+                      </div>
+                    
+                    </div>
+                    <div class=" col-lg-4 col-md-6" >
+                    <div class="card my-card shadow ">
+                        <img class="card-img-top img-fixed " src="img/edit/12.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mt-2 mb-2">سوشی و رولز</h5>
+                        </div>
+                      </div>
+                    </div>
+                <div class=" col-lg-4 col-md-6" >
+                    <div class="card my-card shadow ">
+                      <img class="card-img-top img-fixed " src="img/edit/13.jpg" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title text-center mt-2 mb-2">قهوه و دسر</h5>
+                      </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-6" >
+                    <div class="card my-card shadow ">
+                        <img class="card-img-top img-fixed " src="img/edit/14.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mt-2 mb-2">پیتزا و پاستا</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-md-6" >
+                    <div class="card my-card shadow ">
+                        <img class="card-img-top img-fixed " src="img/edit/15.jpg" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mt-2 mb-2">غذای سالم</h5>
+                          </div>
+                        </div>
+                </div>
+            </div>
+          </div>
+    </section>
+        <!-- section 4 - kiana -->
+    <section class="section2-k " >
+      <div class="container row">
+        <div class="col-lg-6">
+          <div class="row">
+            <div class="card card1-k me-2">
+                <div class="card-me text-white mt-5 pt-5 me-4 pe-5 ">
+                  <h3 class="card-title mt-3 display-6">سفارش غذا با استفاده از برنامه cartzilla</h3>
+                  <h5>
+                    پرداخت با کیف پول در برنامه امتیازات وفاداری را جمع آوری کنید، سفارشات خود را در زمان واقعی پیگیری کنید و موارد دیگر.
+  
+                  </h5>
+                  <a href="#" class="btn btn-dark p-1 mt-4">
+                    <img src="img/appstore.jpg" alt="">
+                  </a>
+                  <a href="#" class="btn btn-dark p-1 mt-4" >
+                    <img src="img/appstore.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <figure class="d-flex  my-fig mobile-k">
+              <img src="img/mobile.jpg" alt="" class="mobile-k pt-5">
+            </figure>
+            
+          </div>
+        </div>
+        
+    </section>
+        <!-- section 5 - behina -->
+        <!-- <div class="container-m mt-5">
+          <div class="row g-3">
+            <div class="col">
+                <div class="right-card-courier ms-3">
+                    <img src="img\20.jpg" alt="courier" style="width:734px">
+                    <div class="courier-text">
+                      <h3 class="card-title">پیک شوید</h3>
+                      <h6 class="card-text">به عنوان پیک با برنامه کاری منعطف کار کنید و حقوقی بالاتر از میانگین دستمزد دریافت کنید</h6>
+                      <a class="btn btn-danger mt-3">شروع به کار کنید</a>
+                    </div> 
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                <div class="left-courier">
+                    <img src="img\20.jpg" alt="courier" style="width:734px">
+                    <div class="courier-text">
+                      <h3 class="card-title">پیک شوید</h3>
+                      <h6 class="card-text">به عنوان پیک با برنامه کاری منعطف کار کنید و حقوقی بالاتر از میانگین دستمزد دریافت کنید</h6>
+                        <a class="btn btn-danger mt-3">شروع به کار کنید</a>          
+                    </div>   
+                  </div>  
+                </div>    
+        </div>
+    </div> -->
+    <!-- insted -->
+    <section>
+      <div class="container mt-5">
+        <div class="row g-3">
+          <div class="col-lg-6">
+                  <div class="card text-dark">
+                      <img src="img/20.jpg" class="card-img" alt="...">
+                      <div class="card-img-overlay text-start mt-5 ms-5">
+                        <h3 class="card-title">پیک شوید</h3>
+                        <h6 class="card-text ">به عنوان پیک با برنامه کاری منعطف کار کنید و حقوقی بالاتر از میانگین دستمزد دریافت کنید</h6>
+                        <a href="#" class="btn btn-danger mt-3">شروع به کار کنید</a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6">
+                  <div class="card text-dark">
+                      <img src="img/20.jpg" class="card-img" alt="...">
+                      <div class="card-img-overlay text-start mt-5 ms-5">
+                        <h3 class="card-title">پیک شوید</h3>
+                        <h6 class="card-text ">به عنوان پیک با برنامه کاری منعطف کار کنید و حقوقی بالاتر از میانگین دستمزد دریافت کنید</h6>
+                        <a href="#" class="btn btn-danger mt-3">شروع به کار کنید</a>
+                      </div>
+                    </div>
+              </div>
+          </div>
+      </div>
+    </section>
+    <!-- insted -->
+        <!-- section 6 - arefeh -->
+    <section class="arefeh-des text-center fw-bold mb-5">
+        <h2 class="mt-5 pt-2">رستوران های محبوب شهر شما</h2>
+        <h5 class="mt-2 pt-2 text-muted">بهترین رستوران های نزدیک خود را بررسی کنید</h5>
+    </section>
+    <section class="arefeh-procuct">
+        <div class="container my-container mb-5">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">   
+                    <div class="card shadow h-160 border-0" >
+                      <img src="img/edit/asi.jpg" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">  
+                  <div class="card shadow h-160 border-0" >
+                    <img src="img/edit/2.jpg" alt="...">
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">   
+                    <div class="card shadow h-160 border-0" >
+                        <img src="img/edit/3.jpg" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">   
+                    <div class="card shadow h-160 border-0" >
+                        <img src="img/edit/4.jpg" alt="...">
+                      </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">   
+                  <div class="card shadow h-160 border-0" >
+                        <img src="img/edit/5.jpg" alt="...">
+                    </div>
+                  </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">  
+                    <div class="card shadow h-160 border-0" >
+                        <img src="img/edit/6.jpg" alt="...">
+                      </div>
+                    </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">  
+                  <div class="card shadow h-160 border-0" >
+                        <img src="img/edit/7.jpg" alt="...">
+                      </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">   
+                  <div class="card shadow h-160 border-0" >
+                        <img src="img/edit/8.jpg" alt="...">
+                      </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">   
+                  <div class="card shadow h-160 border-0" >
+                        <img src="img/edit/9.jpg" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">   
+                  <div class="card shadow h-160 border-0" >
+                        <img src="img/edit/100.jpg" alt="...">
+                      </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">   
+                    <div class="card shadow h-160 border-0" >
+                        <img src="img/edit/111.jpg" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">   
+                    <div class="card shadow h-160 border-0" >
+                      <img src="img/edit/122.jpg" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!-- section 7 - kiana -->
+    <section  style="background-color: rgba(246, 249, 252, 1)" >
+        <div class="countainer pt-5">
+          <h2 class="text-center mb-5">نظرات مشتری ها</h2>
+          <div class="d-flex">
+            <div class="col-xl-3 col-lg-6 col-md-6">
+              <div class="card shadow me-2 border-0" style="width: 23rem;">
+                <div class="card-body">
+                  
+                  <div class="pb-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  
+                  <p class="card-text h6">پرداخت با کیف پول در برنامه امتیازات وفاداری را جمع آوری کنید، سفارشات خود را در زمان واقعی ردیابی کنید و موارد دیگر را با کیف پول برنامه پرداخت کنید. امتیازات وفاداری را جمع آوری کنید، سفارشات خود را در زمان واقعی پیگیری کنید و موارد دیگر.
+                    
+                  </p>
+                  
+                </div>
+              </div>
+              <div class="card mb-3 mt-4 border-0" style="background: transparent;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/30.jpg" alt="" class="me-4 mt-3" style="display: block; border-radius: 100%; width: 55px; height: 55px;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body me-4">
+                      <h5 class="card-title">ریچارد</h5>
+                      <p class="card-text">
+                        <small>
+                          8اسفند 1383
+                        </small>
+                      </p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-xl-3 col-lg-6 col-md-6">
+    
+              <div class="card shadow me-3 border-0" style="width: 23rem;">
+                <div class="card-body">
+                  
+                  <div class="pb-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  
+                  <p class="card-text h6">پرداخت با کیف پول در برنامه امتیازات وفاداری را جمع آوری کنید، سفارشات خود را در زمان واقعی ردیابی کنید و موارد دیگر را با کیف پول برنامه پرداخت کنید. امتیازات وفاداری را جمع آوری کنید، سفارشات خود را در زمان واقعی پیگیری کنید و موارد دیگر.
+    
+                  </p>
+                  
+                </div>
+              </div>
+              <div class="card mb-3 mt-4 border-0" style="background: transparent;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/31.jpg" alt="" class="me-4 mt-3" style="display: block; border-radius: 100%; width: 55px; height: 55px;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body me-4">
+                      <h5 class="card-title">ریچارد</h5>
+                      <p class="card-text">
+                        <small>
+                          8اسفند 1383
+                        </small>
+                      </p>
+                    </div>
+                  </div>
+                    
+                </div>
+              </div>
+    
+    
+            </div>
+            <div class="col-xl-3 col-lg-6 col-md-6">
+              <div class="card shadow me-3 border-0" style="width: 23rem;">
+                <div class="card-body">
+                  
+                  <div class="pb-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  
+                  <p class="card-text h6">پرداخت با کیف پول در برنامه امتیازات وفاداری را جمع آوری کنید، سفارشات خود را در زمان واقعی ردیابی کنید و موارد دیگر را با کیف پول برنامه پرداخت کنید. امتیازات وفاداری را جمع آوری کنید، سفارشات خود را در زمان واقعی پیگیری کنید و موارد دیگر.
+    
+                  </p>
+                  
+                </div>
+              </div>
+              <div class="card mb-3 mt-4 border-0" style="background: transparent;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/32.jpg" alt="" class="me-4 mt-3" style="display: block; border-radius: 100%; width: 55px; height: 55px;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body me-4">
+                      <h5 class="card-title">ریچارد</h5>
+                      <p class="card-text">
+                        <small>
+                          8اسفند 1383
+                        </small>
+                      </p>
+                    </div>
+                  </div>
+                    
+                </div>
+              </div>
+            </div>
+            
+            
+            <div class="col-xl-3 col-lg-6 col-md-6">
+              <div class="card shadow ms-3 me-3 border-0" style="width: 23rem;">
+                <div class="card-body">
+                  
+                  <div class="pb-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star"></i>
+                  </div>
+                  
+                  <p class="card-text h6">پرداخت با کیف پول در برنامه امتیازات وفاداری را جمع آوری کنید، سفارشات خود را در زمان واقعی ردیابی کنید و موارد دیگر را با کیف پول برنامه پرداخت کنید. امتیازات وفاداری را جمع آوری کنید، سفارشات خود را در زمان واقعی پیگیری کنید و موارد دیگر.
+    
+                  </p>
+                  
+                </div>
+              </div>
+              <div class="card mb-3 mt-4 border-0" style="background: transparent;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/33.jpg" alt="" class="me-4 mt-3" style="display: block; border-radius: 100%; width: 55px; height: 55px;">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body me-4">
+                      <h5 class="card-title">ریچارد</h5>
+                      <p class="card-text">
+                        <small>
+                          8اسفند 1383
+                        </small>
+                      </p>
+                    </div>
+                  </div>
+                    
+                </div>
+              </div>
+            </div>
+          
+       
+          </div>
+         
+            </div>
+          </div>
+     
+          
+          </div>
+        </div>
+        </div>
+    
+          
+      </section>
+        <!-- section 8 - behina -->
+    <footer class="footer bg-darkblue mt-5 " style="background-color:rgba(43, 52, 69, 1); padding-top: 60px; padding-bottom: 20px;">
+    <div class="container">
+      <div class="row d-flex">
+        <div calss="col-lg-2 col-md-4 col-sm-6 col-6" style="width: 300px; margin-left: -120px">
+            <ul class="country-list">
+            <li class="country-list-items">
+            <a style="font-size: 30px; font-weight: 750; color:white;">CartZilla</a>
+            </li>
+            <div class="dropdown">
+              <botton class="btn footer-btn dropdown-toggle color-white " type="botton" style="border-color: #adb5bd; margin-left: -4px; margin-top: 10px;">
+                <img src="img\flag.png" class="me-2" style="width: 30px;">
+                <a style="color:white;">Eng / &</a>
+              </botton>
+              <ul class="dropdown-menu">
+                <li>
+                    <a class="dropdown-item">
+                    <img src="img/flag.png" style="width:30px;" class="me-2">
+                    <a style="color:white">Per / $</a>
+                    </a>
+                </li>
+                <a class="dropdown-item">
+                  <img src="img/flag.png" style="width:30px;" class="me-2">
+                  <a style="color:white">Ue / $</a>
+                </a>
+              </li>
+                </ul>
+              </div>         
+            </ul>
+          </div>
+          <div class="col-lg-6 col-md-4 col-sm-6 col-6" style="width:200px;">
+            <ul class="list-group">
+              <li class="list-group-item" style="background-color:rgba(43, 52, 69, 1); border-color: rgba(43, 52, 69, 1); color: white; font-weight: 700;">
+                <a>به ما بپیوندید</a>
+              </li>
+              <li class="list-group-item" style="background-color:rgba(43, 52, 69, 1); border-color: rgba(43, 52, 69, 1); color:#adb5bd;">
+                <a>مشاغل</a>
+              </li>
+              <li class="list-group-item" style="background-color:rgba(43, 52, 69, 1); border-color: rgba(43, 52, 69, 1); color:#adb5bd;">
+                <a>رستوران ها</a>
+            </li>
+            <li class="list-group-item" style="background-color:rgba(43, 52, 69, 1); border-color: rgba(43, 52, 69, 1); color:#adb5bd;">
+              <a>پیک شوید</a>
+            </li>
+            <li class="list-group-item" style="background-color:rgba(43, 52, 69, 1); border-color: rgba(43, 52, 69, 1); color:#adb5bd;">
+                <a>درباره ی ما</a>
+            </li>
+            </ul>
+          </div>
+          <div class="col-lg-6 colmd-4 col-sm-6 col-6 mt-2" style="width:200px";>
+            <ul class="list-group">
+              <li class="list-group-item " style="background-color:rgba(43, 52, 69, 1); border-color: rgba(43, 52, 69, 1); color: white; font-weight: 700;">
+                <a>بگذارید به شما کمک کنیم</a>
+            </li>
+            <li class="list-group-item" style="background-color:rgba(43, 52, 69, 1); border-color: rgba(43, 52, 69, 1); color:#adb5bd; margin-top: 15px;">
+              <a>هلپ سنتر</a>
+            </li>
+            <li class="list-group-item" style="background-color:rgba(43, 52, 69, 1); border-color: rgba(43, 52, 69, 1); color:#adb5bd; margin-top: 18px;">
+                <a>حمایت</a>
+            </li>
+            <li class="list-group-item" style="background-color:rgba(43, 52, 69, 1); border-color: rgba(43, 52, 69, 1); color:#adb5bd; margin-top: 19px;">
+                <a>مخاطبین</a>
+              </li>
+            </ul>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+          <ul class="list-group">
+            <li class="list-group-item" style="background-color:rgba(43, 52, 69, 1); border-color: rgba(43, 52, 69, 1); color: white; font-weight: 700;">
+              <a>ما را دنبال کنید</a>
+            </li>
+            <li class="list-group-item" style="background-color:rgba(43, 52, 69, 1); border-color: rgba(43, 52, 69, 1); color:#adb5bd;">
+              <a>فیس بوک</a>
+            </li>
+            <li class="list-group-item" style="background-color:rgba(43, 52, 69, 1); border-color: rgba(43, 52, 69, 1); color:#adb5bd;">
+                <a>توییتر</a>
+              </li>
+            <li class="list-group-item" style="background-color:rgba(43, 52, 69, 1); border-color: rgba(43, 52, 69, 1); color:#adb5bd;">
+                <a>اینستاگرام</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+            <ul class="list-group">
+            <li class="list-group-item" style="background-color:rgba(43, 52, 69, 1); border-color: rgba(43, 52, 69, 1); color: white; font-weight: 700;">
+              <a>اپ ما را دانلود کنید</a>
+            </li>
+            <a class="btn-dark">
+                <img src="img/appstore.jpg">
+            </a>
+            </ul>
+          </div>
+          <a class="btn-dark" style="width: 300px; margin-top: 45px;">
+            <img src="img/and.jpg">
+            </a>
+            </ul>
+          </div>
+        </div>
+        <div class=" mt-4 last-row">
+        <div class="col-lg-12">
+            <nav class="navbar navbar-expand-lg pt-4">
+            <div class="container-fluid p-0 m-0">
+                <a class="navbar-brand disabled cng" style="color:#adb5bd; margin-left: 30px; font-size:16px;">made by BKA</a>
+                <div class="collapse navbar-collapse p-0 m-0" id="navbar-supportedContent">
+                <ul class="d-flex mt-4" style="margin-left: 900px; color:#adb5bd;">
+                    <a class="nav-link cng pe-4">Privacy Policy</a>
+                    <a class="nav-link cng pe-4">Terms & Conditions</a>
+                    <a class="nav-link cng">Cookies Policy</a>
+                </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+    </div>
+    </footer>
+        <!-- section 9 - eror - arefeh -->
+        <!-- <section >
+          <div class="mb-5 pt-5 ms-5 me-5">
+            <div class="pb-5 d-flex justify-content-center">
+              <div class="spinner-border" role="status">
+                <span class="visually-hidden"></span>
+              </div>
+            </div>
+                <div class="row g-4">
+                  <h1 role="alert" class="alert alert-danger shadow p-3 mb-5 rounded bg-danger pt-5 pb-5 ps-5 pe-5 display-1 fw-bold border border-danger  text-center">404</h1>
+                  <h3 class="mt-4 text-center display-5 text-decoration-underline">...همش الکی بود قراره گشنه بمونی...</h3>
+                </div>
+                <div>
+                    <a href="#" class="row mb-5 pt-5 ms-5 me-5">
+                      <button type="button" class="text-center btn btn-outline-secondary">
+                        <h3>حرف نزن ، منو بزن</h3>
+                      </button>
+                    </a>
+                </div>
+              </div>
+        </section> -->
+        
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
